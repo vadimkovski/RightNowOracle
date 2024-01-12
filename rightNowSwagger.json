@@ -1,1 +1,48 @@
-
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "RightNow Swagger Description for Rest Api client",
+        "version": "1.0.0",
+        "title": "Right Now Swagger for Oracle API",
+        "contact": {
+            "email": "vadim.golubkov@faro.com"
+        }
+    },
+    "host": "https://interfaro.custhelp.com",
+    "basePath": "services/rest/connect",
+    "schemes": [
+        "https"
+    ],
+    "paths": {
+        
+        "/v1.4": {
+            "get": {
+                "operationId": "GetInitalEntry",
+                "description": "initial API entry point",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "items": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/Pet"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value"
+                    }
+                }
+            }
+        }
+    }
+}

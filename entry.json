@@ -1,0 +1,392 @@
+{
+    "items": [
+        {
+            "name": "accounts",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/accounts"
+                }
+            ]
+        },
+        {
+            "name": "accountGroups",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/accountGroups"
+                }
+            ]
+        },
+        {
+            "name": "analyticsReports",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/analyticsReports"
+                }
+            ]
+        },
+        {
+            "name": "answers",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/answers"
+                }
+            ]
+        },
+        {
+            "name": "answerVersions",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/answerVersions"
+                }
+            ]
+        },
+        {
+            "name": "assets",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/assets"
+                }
+            ]
+        },
+        {
+            "name": "assetStatuses",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/assetStatuses"
+                }
+            ]
+        },
+        {
+            "name": "bulkExtracts",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/bulkExtracts"
+                }
+            ]
+        },
+        {
+            "name": "bulkExtractResults",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/bulkExtractResults"
+                }
+            ]
+        },
+        {
+            "name": "campaigns",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/campaigns"
+                }
+            ]
+        },
+        {
+            "name": "channelTypes",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/channelTypes"
+                }
+            ]
+        },
+        {
+            "name": "chats",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/chats"
+                }
+            ]
+        },
+        {
+            "name": "configurations",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/configurations"
+                }
+            ]
+        },
+        {
+            "name": "contacts",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/contacts"
+                }
+            ]
+        },
+        {
+            "name": "contactMarketingRosters",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/contactMarketingRosters"
+                }
+            ]
+        },
+        {
+            "name": "countries",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/countries"
+                }
+            ]
+        },
+        {
+            "name": "eventSubscriptions",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/eventSubscriptions"
+                }
+            ]
+        },
+        {
+            "name": "holidays",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/holidays"
+                }
+            ]
+        },
+        {
+            "name": "incidents",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/incidents"
+                }
+            ]
+        },
+        {
+            "name": "mailboxes",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/mailboxes"
+                }
+            ]
+        },
+        {
+            "name": "marketingMailboxes",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/marketingMailboxes"
+                }
+            ]
+        },
+        {
+            "name": "messageBases",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/messageBases"
+                }
+            ]
+        },
+        {
+            "name": "opportunities",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/opportunities"
+                }
+            ]
+        },
+        {
+            "name": "opportunityStatuses",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/opportunityStatuses"
+                }
+            ]
+        },
+        {
+            "name": "organizations",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/organizations"
+                }
+            ]
+        },
+        {
+            "name": "purchasedProducts",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/purchasedProducts"
+                }
+            ]
+        },
+        {
+            "name": "salesProducts",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/salesProducts"
+                }
+            ]
+        },
+        {
+            "name": "salesTerritories",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/salesTerritories"
+                }
+            ]
+        },
+        {
+            "name": "serviceCategories",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/serviceCategories"
+                }
+            ]
+        },
+        {
+            "name": "serviceDispositions",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/serviceDispositions"
+                }
+            ]
+        },
+        {
+            "name": "serviceMailboxes",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/serviceMailboxes"
+                }
+            ]
+        },
+        {
+            "name": "serviceProducts",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/serviceProducts"
+                }
+            ]
+        },
+        {
+            "name": "siteInterfaces",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/siteInterfaces"
+                }
+            ]
+        },
+        {
+            "name": "sSOTokenReferences",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/sSOTokenReferences"
+                }
+            ]
+        },
+        {
+            "name": "standardContents",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/standardContents"
+                }
+            ]
+        },
+        {
+            "name": "tasks",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/tasks"
+                }
+            ]
+        },
+        {
+            "name": "variables",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/variables"
+                }
+            ]
+        },
+        {
+            "name": "analyticsReportResults",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/analyticsReportResults"
+                }
+            ]
+        },
+        {
+            "name": "namedIDHierarchies",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/namedIDHierarchies"
+                }
+            ]
+        },
+        {
+            "name": "namedIDs",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/namedIDs"
+                }
+            ]
+        },
+        {
+            "name": "queryResults",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/queryResults"
+                }
+            ]
+        },
+        {
+            "name": "incidentResponse",
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4/incidentResponse"
+                }
+            ]
+        }
+    ],
+    "links": [
+        {
+            "rel": "self",
+            "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4"
+        },
+        {
+            "rel": "canonical",
+            "href": "https://interfaro.custhelp.com/services/rest/connect/v1.4"
+        }
+    ]
+}
