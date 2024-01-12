@@ -32,7 +32,7 @@
                                             "type": "integer"
                                         },
                                         "lookupName": {
-                                            "type": "String"
+                                            "type": "string"
                                         },
                                         "links": {
                                             "type": "array",
