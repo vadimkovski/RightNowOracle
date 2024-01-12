@@ -22,8 +22,7 @@
                     "200": {
                         "description": "Successful response",
                         "schema": {
-                            "type": "object",
-                            "properties": {
+                         
                                 "type": "array",
                                 "items": {
                                     "type": "object",
@@ -51,7 +50,7 @@
                                         }
                                     }
                                 }
-                            }
+                            
                         }
                     }
                 }
