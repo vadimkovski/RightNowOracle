@@ -9,7 +9,7 @@
         }
     },
     "host": "https://interfaro.custhelp.com",
-    "basePath": "services/rest/connect",
+    "basePath": "/services/rest/connect",
     "schemes": [
         "https"
     ],
