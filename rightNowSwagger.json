@@ -8,7 +8,7 @@
             "email": "vadim.golubkov@faro.com"
         }
     },
-    "host": "https://interfaro.custhelp.com",
+    "host": "interfaro.custhelp.com",
     "basePath": "/services/rest/connect",
     "schemes": [
         "https"
