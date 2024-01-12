@@ -1,0 +1,55 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "RightNow Swagger Description for Rest Api client",
+        "version": "1.0.0",
+        "title": "Right Now Swagger for Oracle API",
+        "contact": {
+            "email": "vadim.golubkov@faro.com"
+        }
+    },
+    "host": "interfaro.custhelp.com",
+    "basePath": "/services/rest/connect/v1.4",
+    "schemes": [
+        "https"
+    ],
+    "paths": {
+        "/accounts": {
+            "get": {
+                "summary": "Retrieve accounts",
+                "description": "Endpoint to retrieve a list of accounts",
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "links": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "rel": {
+                                                    "type": "string"
+                                                },
+                                                "href": {
+                                                    "type": "string",
+                                                    "format": "uri"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
