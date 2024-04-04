@@ -1,0 +1,61 @@
+swagger: '2.0'
+info:
+  title: Salesforce Case Query API
+  description: API Definition to query Salesforce for a Case ID based on a Case Number
+  version: '1.0.0'
+host: 'faro.my.salesforce.com'
+schemes:
+  - https
+basePath: '/services/data/v60.0'
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /query:
+    get:
+      summary: Execute a SOQL query to find a Case ID by Case Number
+      description: Retrieves the Case ID for a given Case Number using SOQL.
+      parameters:
+        - name: q
+          in: query
+          description: SOQL query to execute
+          required: true
+          type: string
+          default: "SELECT Id FROM Case WHERE CaseNumber = '123456'"
+      responses:
+        200:
+          description: Successful response with Case ID
+          schema:
+            type: object
+            properties:
+              totalSize:
+                type: integer
+              done:
+                type: boolean
+              records:
+                type: array
+                items:
+                  type: object
+                  required:
+                    - Id
+                  properties:
+                    Id:
+                      type: string
+        400:
+          description: Bad request (e.g., malformed SOQL query)
+        401:
+          description: Authentication failure
+        403:
+          description: Authorization failure or access denied
+securityDefinitions:
+  oauth2:
+    type: oauth2
+    authorizationUrl: 'https://login.salesforce.com/services/oauth2/authorize'
+    flow: accessCode
+    tokenUrl: 'https://login.salesforce.com/services/oauth2/token'
+    scopes:
+      access: Access Salesforce data
+security:
+  - oauth2:
+      - access
